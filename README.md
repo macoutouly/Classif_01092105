@@ -14,16 +14,20 @@ Ideally, you ll work with R or Python to carry out the following steps:
  
 # Requirements
 I am using ANACONDA python distribution : 
+
 * python 2.7
 * numpy 1.9.2
 * matplotlib 1.4.3
 * scikit learn 1.16.1
+
 I have added fuzzywuzzy to the distribution (https://github.com/seatgeek/fuzzywuzzy)
 
 # IMPORT METADATAS
 
-First I wanted to add column names on top of each column. Not wanting to modify the metadata file (census_income_metadata.txt) I have struggled quite a bit with this initial task. 
+First I wanted to add column names on top of each column. Not wanting to modify the metadata file (census_income_metadata.txt). I have struggled quite a bit with this initial task. 
+
 I have faced problems such as discrepancy between informations, peace of informations along the file, differently orthographed descriptions, unused column...
+
 I have created a ParseMetadata class to which you give the filename you want to parse. 
 Informations such as line number are hard coded for now.
 
@@ -37,7 +41,9 @@ Files are imported using pandas.read_csv.
 I add the column names (Acronyms) on top of each column 
 
 For each column a report is printed (These reports can be desactivate  putting the REPORTS parameter to 0)and an histogramm /bar plot depending on their dtype. 
+
 In histogramms the red vertical line shows the mean value. 
+
 These plottings can be desactivate putting the SHOW_PLOTS_UNIVARIATE parameter to 0
 
 # MODELS
@@ -48,7 +54,9 @@ From now on I have kept GradientBoostingClassifier and AdaBoost, using validatio
 
 # INSIGHT
 
-The fact of making more than $50 000 per year depends on the level of education (20%) then the choice in the major occupation(12%), your dividends from stocks (6%), the number of week worked in the year, even the marital status(4%) play a role. 
+The fact of making more than $50 000 per year depends on the 
+level of education (20%) then the choice in the major occupation(12%), 
+your dividends from stocks (6%), the number of week worked in the year, even the marital status(4%) play a role. 
 
 
 
