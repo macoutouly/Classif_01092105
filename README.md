@@ -54,7 +54,7 @@ From now on I have kept GradientBoostingClassifier and AdaBoost, using validatio
 
 # INSIGHT
 
-The fact of making more than $50 000 per year depends on the level of education (20%) then the choice in the major occupation, your dividends from stocks also play a role. 
+The fact of making more than $50 000 per year depends on the level of education (20%) then the choice in the major occupation(12%), your dividends from stocks (6%), the number of week worked in the year, even the marital status(4%) play a role. 
 
 
 
