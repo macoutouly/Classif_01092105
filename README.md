@@ -14,10 +14,10 @@ Ideally, you ll work with R or Python to carry out the following steps:
  
 # Requirements
 I am using ANACONDA python distribution : 
-    * python 2.7
-    * numpy 1.9.2
-    * matplotlib 1.4.3
-    * scikit learn 1.16.1
+* python 2.7
+* numpy 1.9.2
+* matplotlib 1.4.3
+* scikit learn 1.16.1
 I have added fuzzywuzzy to the distribution (https://github.com/seatgeek/fuzzywuzzy)
 
 # IMPORT METADATAS
