@@ -1,4 +1,4 @@
-#!/Users/mac/anaconda/bin/python
+#!/usr/bin/env python
 # -*- coding: iso-8859-1 -*-
 
 import sys
@@ -21,10 +21,10 @@ from sklearn.metrics import roc_auc_score,mean_squared_error
 from sklearn.learning_curve import learning_curve,validation_curve
 
 DATA_PATH ="."              # PATH to your files
-REPORT = 0                  # 0 --> no report regarding columns, 1 --> report
+REPORT = 1                  # 0 --> no report regarding columns, 1 --> report
 SHOW_PLOTS_UNIVARIATE = 1   # 0 --> no plots regarding columns, 1 --> plots
-SHOW_CURVES = 0             # 0 --> no curves regarding models, 1 --> curves
-DO_STUDY = 0                # 0 --> no strudy on different models, 1 --> study
+SHOW_CURVES = 1             # 0 --> no curves regarding models, 1 --> curves
+DO_STUDY = 1                # 0 --> no strudy on different models, 1 --> study
 class ParseMetadata(object):
     """Parsing Metadata file """
     def __init__(self,filename):
