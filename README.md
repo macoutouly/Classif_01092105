@@ -59,6 +59,7 @@ level of education (20%) then the choice in the major occupation(12%),
 your dividends from stocks (6%), the number of week worked in the year, even the marital status(4%) play a role. 
 
 
+# THINGS I SHOULD/COULD HAVE DONE
 
-
+I didn't pay enough attention to my features, I guess I could have worked more on feature selection using a pipeline.. 
 
